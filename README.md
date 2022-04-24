@@ -1,4 +1,4 @@
-# Quiver
+# Source Engine
 Custom Source Engine branch based on Source Engine 2007, currently available on Windows in x86.
 
 **Pull this repository with recursive submodules (`git clone --recursive`) to clone qpc and game/core folder**
@@ -45,15 +45,9 @@ Linux and MacOS support isn't finished, however, it is possible to download one 
 
 - For Wine, run the game with any one of the game/run\_mod\_x.bat files
 
-- For Proton, add game/bin/win32/quiver.exe as a non-steam game, and copy the arguments from any one of the run_mod_x.bat files into steam launch option, and start the game with proton
+- For Proton, add game/bin/win32/SourceEngine.exe as a non-steam game, and copy the arguments from any one of the run_mod_x.bat files into steam launch option, and start the game with proton
 
 ## How you can help
 
 ### Supporting Non-Windows Platforms
 The Source Engine was built heavily Windows-oriented, as it uses DirectX as it's graphics API which is only available on Windows, Xbox, Xbox 360 and the Xbox One. This is the major obstacle in supporting other platforms. To bring support to other platforms; we need an experienced graphics programmer who can work with OpenGL or Vulkan as these graphics APIs are universal, other than that some platform-specific code may be required.
-
-### Links
-
-[Discord Server](https://discord.gg/UhGXx2u)
-
-(unused) [Trello](https://trello.com/b/WaxlL3kb/quiver-engine)
